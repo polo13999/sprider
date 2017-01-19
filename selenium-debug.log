@@ -1,0 +1,27 @@
+20:08:45.848 INFO - Launching a standalone Selenium Server
+20:08:45.915 INFO - Java: Oracle Corporation 25.25-b02
+20:08:45.916 INFO - OS: Mac OS X 10.12.2 x86_64
+20:08:45.941 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+20:08:46.084 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+20:08:46.085 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+20:08:46.085 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+20:08:46.085 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+20:08:46.088 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+20:08:46.088 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+20:08:46.289 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:08:46.289 INFO - Selenium Server is up and running
+20:08:47.006 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+20:08:47.026 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 40413
+Only local connections are allowed.
+20:08:49.141 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+20:08:49.189 INFO - Executing: [get: https://css.fetc.net.tw/CS/CS02010Traffic/TrafficQuery])
+20:09:49.197 INFO - Executing: [find elements: By.cssSelector: body])
+20:10:05.327 INFO - Done: [get: https://css.fetc.net.tw/CS/CS02010Traffic/TrafficQuery]
+20:10:07.804 INFO - Done: [find elements: By.cssSelector: body]
+20:10:07.814 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (603cc30f7af337989c213c325a96ee83)] -> css selector: body]])
+20:10:07.844 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (603cc30f7af337989c213c325a96ee83)] -> css selector: body]]
+20:10:07.852 INFO - Executing: [get page source])
+20:10:07.882 INFO - Done: [get page source]
