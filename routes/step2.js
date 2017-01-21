@@ -26,7 +26,7 @@ async function step2() {
                     //console.log(temp[1]);   //取出筆數
                     //     //順便製作query工作清單
                     let task = [];
-                    for (i = 1; i < temp[1]; i++) {
+                    for (i = 1; i <= temp[1]; i++) {
                         task.push(temp[0] + "p=" + i);
                     }
                     let task_json = JSON.stringify(task);
